@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Club Landing Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="background">
+		<div class="container">
+			<div class="row justify-content-center align-items-center min-vh-100">
+				<div class="col-md-6 text-white text-center animate__animated animate__fadeInLeft">
+					<h1 class="mb-4">Üdvözöljük a klubunkban!</h1>
+					<p class="mb-4">Csatlakozzon belső körünkhöz, és maradjon naprakész az exkluzív eseményekkel és titkos találkozókkal kapcsolatban.</p>
+					<form id="newsletter-form">
+						<div class="form-group">
+							<label for="name" class="sr-only">Név:</label>
+							<input type="text" class="form-control" id="name" name="name" placeholder="Adja meg a nevét" required>
+						</div>
+						<div class="form-group">
+							<label for="email" class="sr-only">Email:</label>
+							<input type="email" class="form-control" id="email" name="email" placeholder="Adja meg az email címét" required>
+						</div>
+						<div class="form-group">
+							<label for="reasons" class="sr-only">Csatlakozás okai:</label>
+							<textarea class="form-control" id="reasons" name="reasons" placeholder="Adja meg a csatlakozás okait"></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary animate__animated animate__fadeInUp">Csatlakozzon most</button>
+					</form>
+					<div id="success-message" class="hidden mt-4 animate__animated animate__fadeIn">
+						<p>Köszönjük, hogy belépett a belső körünkbe!</p>
+						<p>Hamarosan kapcsolatba lépünk Önnel exkluzív meghívókkal.</p>
+					</div>
+				</div>
+				<div class="col-md-6 text-white text-center animate__animated animate__fadeInRight">
+          <img src="background.png" alt="Termék kép" class="img-fluid mb-4" style="max-width: 200px;">
+            <p class="mb-4">Üdvözlünk a Könyv- és Filmklubunkban, ahol kiválasztott témában együtt beszélünk az adott könyvekről és filmekről. Csatlakozz hozzánk, ha szereted megosztani olvasási és filmélményeidet, valamint ha érdekelnek az irodalom és a filmek világa.</p>
+            <ul class="mb-4 text-left">
+              <li><strong>Mi a klub célja?</strong>A klub célja, hogy egy csoport ember számára lehetőséget biztosítson arra, hogy megvitassák a kiválasztott témában kiválasztott könyveket és filmeket. A cél az, hogy érdekes és mélyreható beszélgetéseket folytassanak a téma körül, és hogy az emberek új dolgokat tanuljanak egymástól és az adott témáról.</li>
+              <li><strong>Milyen gyakran találkozik a klub?</strong>A klub havonta párszor találkozik, hogy megbeszéljék az adott hónapra kiválasztott könyveket és filmeket. Ez lehetővé teszi az emberek számára, hogy időt szakítsanak az olvasásra és filmnézésre, valamint lehetőséget nyújt arra, hogy megbeszéljék az észrevételeiket és gondolataikat a témáról.</li>
+              <li><strong>Milyen típusú könyveket és filmeket választanak ki?</strong> 
+                A klub minden hónapban kiválaszt egy témát, amely köré csoportosítják a kiválasztott könyveket és filmeket. A témák változatosak lehetnek, például történelmi események, kultúrák, társadalmi kérdések vagy életvezetési tanácsok köré épülnek. A könyvek és filmek kiválasztása olyan műveket foglal magába, amelyek relevánsak és fontosak a témában.</li>
+              <li><strong>Ki vehet részt a klubban?</strong> 
+                A klub nyitott minden érdeklődő számára, akik szeretnének jobban megismerni egy adott témát, és akik élvezik a beszélgetéseket másokkal. A klubhoz bárki csatlakozhat, aki nyitott az új tapasztalatokra és az érdekes beszélgetésekre.</li>
+                <li><strong>Hol találkoznak a klubtagok?</strong>A klubtagok az adott hónapban kiválasztott helyszínen találkoznak, amely lehet egy kávézó, egy könyvtár vagy egy mozi. A helyszín függ a klub tagjaitól és a kiválasztott könyvek/filmek témájától.</li>
+              <li><strong>Hogyan lehet csatlakozni a klubhoz?</strong>
+                A klubhoz való csatlakozás jelenleg létszámgyűjtő fázisban van, így az alábbi űrlapon keresztül lehet jelentkezni. <br>
+                <br>
+                Az űrlapon kérjük, adja meg nevét, e-mail címét, valamint röviden írja le, miért szeretne csatlakozni a klubhoz. Az adatokat bizalmasan kezeljük, és kizárólag a klubhoz kapcsolódó információk küldése céljából használjuk fel.
+                <br><br>
+                Amennyiben további információra lenne szüksége a klubmal kapcsolatban, kérjük, írjon nekünk az alábbi e-mail címre: [e-mail cím]
+              </li>
+              </ul>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
